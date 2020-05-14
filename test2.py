@@ -1,5 +1,5 @@
 #-*- coding: utf-8 -*-
 
 print("Hello World")
-print("‚±‚ñ‚É‚¿‚Í")
+print("ã“ã‚“ã«ã¡ã¯")
 
