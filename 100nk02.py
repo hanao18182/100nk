@@ -9,9 +9,10 @@ tax = "タクシー"
 #文字列を入力するため""を設定しておく
 moji = ""
 
-#for文を用いて1文字入ったらもう1文字入れるを最後まで繰り返す
-for i in range(len(pat)):
-	moji += pat[i] + tax[i]
+#for文を用いて文字を先頭から交互に用意した変数に格納する
+#zipを利用することで先頭から一番短い文字の長さまで順に連結してくれる
+for x, y in zip(pat, tax):
+	moji += x + y
 
 #最終的にmojiに格納されているのを呼び出す
 print(moji)
